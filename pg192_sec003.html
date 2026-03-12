@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <title>Práticas de Alfabetização e de Matemática</title>
+    <meta name="title-id" content="pg192_sec003" />
+    <meta name="page-section-id" content="296" />
+    <link rel="preload" href="./assets/fonts/Merriweather-VariableFont.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="./assets/fonts/Merriweather-Italic-VariableFont.woff2" as="font" type="font/woff2" crossorigin>
+    <link href="./content/tailwind_output.css" rel="stylesheet">
+    <link href="./assets/libs/fontawesome/css/all.min.css" rel="stylesheet">
+    <link href="./assets/fonts.css" rel="stylesheet">
+</head>
+
+<body class="min-h-screen flex items-center justify-center">
+    <div id="content" class="opacity-0">
+    <div id="content" class="container mx-auto max-w-5xl bg-white rounded-lg px-4 md:px-12 xl:px-24 pt-10 pb-12">
+  <section class="bg-white mx-auto" data-section-type="activity_sorting" data-section-id="pg192_sec003" role="activity">
+    <!-- Header bar like original -->
+    <div class="w-full bg-blue-700 rounded-sm px-6 py-3 mb-5">
+      <h2 class="text-3xl md:text-4xl font-extrabold tracking-wide text-white" data-id="pg192_gp007_tx001">PRATICANDO</h2>
+    </div>
+
+    <!-- Instruction line -->
+    <div class="flex items-start gap-3 mb-6">
+      <p class="text-lg md:text-xl font-semibold" data-id="pg192_gp008_tx001">1)</p>
+      <p class="text-lg md:text-xl font-semibold leading-snug" data-id="pg192_gp008_tx002">LIGUE CADA IMAGEM AO BEM-ESTAR QUE ELA REPRESENTA.</p>
+    </div>
+
+    <!-- Images row (3 across on tablet/desktop, stacked on mobile) -->
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-5">
+      <figure class="bg-white">
+        <img data-id="pg192_im001" src="images/pg192_im001.jpg" alt="Yuri A/Shutterstock" class="block max-w-full h-auto rounded-md mx-auto" style="max-width: 100%; height: auto;">
+        <figcaption class="text-xs text-gray-600 mt-2" data-id="pg192_gp009_tx001">Yuri A/Shutterstock</figcaption>
+      </figure>
+
+      <figure class="bg-white">
+        <img data-id="pg192_im002" src="images/pg192_im002.jpg" alt="Tint Media/Shutterstock" class="block max-w-full h-auto rounded-md mx-auto" style="max-width: 100%; height: auto;">
+        <figcaption class="text-xs text-gray-600 mt-2" data-id="pg192_gp009_tx002">Tint Media/Shutterstock</figcaption>
+      </figure>
+
+      <figure class="bg-white">
+        <img data-id="pg192_im003" src="images/pg192_im003.jpg" alt="javi_indy/Shutterstock" class="block max-w-full h-auto rounded-md mx-auto" style="max-width: 100%; height: auto;">
+        <figcaption class="text-xs text-gray-600 mt-2" data-id="pg192_gp009_tx003">javi_indy/Shutterstock</figcaption>
+      </figure>
+    </div>
+
+    <!-- Labels under images (match original: three labels in a row; stack on mobile) -->
+    <div class="mt-6 grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-5" role="listbox" aria-label="Op&#xe7;&#xf5;es de bem-estar">
+      <p class="text-center font-semibold tracking-wide text-sm md:text-base" data-activity-item="bem-estar-mental" data-id="pg192_gp009_tx004" draggable="true" tabindex="0" role="option" aria-grabbed="false">BEM-ESTAR MENTAL</p>
+      <p class="text-center font-semibold tracking-wide text-sm md:text-base" data-activity-item="bem-estar-fisico" data-id="pg192_gp009_tx005" draggable="true" tabindex="0" role="option" aria-grabbed="false">BEM-ESTAR F&#xcd;SICO</p>
+      <p class="text-center font-semibold tracking-wide text-sm md:text-base" data-activity-item="bem-estar-social" data-id="pg192_gp009_tx006" draggable="true" tabindex="0" role="option" aria-grabbed="false">BEM-ESTAR SOCIAL</p>
+    </div>
+
+    <!-- Keep drop targets for functionality, but hide visually to preserve book look -->
+    <div class="sr-only" role="listbox" aria-label="Categorias">
+      <div class="category" data-activity-category="pg192_im001" tabindex="0" role="listbox" aria-label="Categoria para a imagem 1">
+        <label class data-id="pg192_gp009_tx001">Yuri A/Shutterstock</label>
+        <ul class="word-list"></ul>
+      </div>
+      <div class="category" data-activity-category="pg192_im002" tabindex="0" role="listbox" aria-label="Categoria para a imagem 2">
+        <label class data-id="pg192_gp009_tx002">Tint Media/Shutterstock</label>
+        <ul class="word-list"></ul>
+      </div>
+      <div class="category" data-activity-category="pg192_im003" tabindex="0" role="listbox" aria-label="Categoria para a imagem 3">
+        <label class data-id="pg192_gp009_tx003">javi_indy/Shutterstock</label>
+        <ul class="word-list"></ul>
+      </div>
+    </div>
+  </section>
+</div>
+    </div>
+
+    <script type="text/javascript">
+        window.correctAnswers = JSON.parse('{"bem-estar-mental":"pg192_im003","bem-estar-fisico":"pg192_im001","bem-estar-social":"pg192_im002"}');
+    </script>
+    <div class="relative z-50" id="interface-container"></div>
+    <div class="relative z-50" id="nav-container"></div>
+    <script src="./assets/base.bundle.min.js?v=1" type="module"></script>
+</body>
+
+</html>
